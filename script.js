@@ -11,12 +11,13 @@ const hubData = {
     { name: "Gabriel C. Tavares", img: "./public/persons/Gabriel_C_Tavares.png", links: { Substack: "https://substack.com/@quietbiel93" } },
     { name: "Francielly Stempkowski", img: "./public/persons/Francielly_Stempkowski.png", links: { Substack: "https://substack.com/@stempkowski" } },
     { name: "Cristian Brocca", img: "./public/persons/Cristian_Brocca.png", links: { Substack: "https://substack.com/@cristianbrocca" } },
+    { name: "Patriota Catarinense", img: "./public/persons/Patriota_Catarinense.png", links: { Substack: "https://substack.com/@mts1622652" } },
   ],
   portavoze: [
     { name: "Midia BH", img: "./public/porta_vozes/BrunoDiasPR.jpg", links: { YouTube: "https://www.youtube.com/@MidiaBH", Kick: "https://kick.com/brunodiaspr" } },
   ],
   plataformas: [
-    { name: "Aristocracia", img: "./public/icons/default.jpg", links: { Discord: "https://discord.gg/XncGYt2Y7g" } },
+    { name: "Aristocracia", img: "./public/icons/Aristocracia.png", links: { Discord: "https://discord.gg/XncGYt2Y7g" } },
   ]
 };
 

@@ -54,7 +54,7 @@ img {
   font-size: 14px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #f2d59a;
+  color: gold;
   opacity: 0.85;
   margin-bottom: -4px;
 
@@ -287,6 +287,12 @@ img {
   background: rgba(210, 180, 106, 0.38);
   box-shadow: 0 0 10px rgba(255, 225, 160, 0.45);
 }
+
+/* ========================= */
+/*        footer         */
+/* ========================= */
+
+.footer{margin-top: 15px;margin-bottom: 25px;}
 
 /* ========================= */
 /*        RESPONSIVO         */
