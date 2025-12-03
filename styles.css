@@ -308,7 +308,7 @@ img {
   float: left;
   text-align: center;
   width: 33.3%;
-  min-height: 200px;
+  min-height: 180px;
   padding: 25px;
 }
 
@@ -348,7 +348,38 @@ img {
   .col {
     max-width: 100%;
   }
-}
+
+    /* pesonalização autores*/
+  .author{
+    max-width: 970px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: left;
+  }
+
+  .list-author{
+     display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .list-author >.full-person{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+  }
+
+  .list-author >.full-person >img{
+    display: block;
+  }
+
+  .list-author >.full-person >.fp-info >.fp-links{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;}
+  .list-author >.full-person >.fp-info >.fp-links a{font-size: 14px;}
+  }
 
 @media (max-width: 450px) {
   .title {
