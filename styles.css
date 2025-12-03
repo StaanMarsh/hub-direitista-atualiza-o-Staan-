@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Times New Roman", serif;
-  background: radial-gradient(circle at top, #d7bf82 0%, #0b0b0b 75%);
+  background: radial-gradient(circle at top, #7f6b37 0%, #0b0b0b 75%);
   color: #fff;
   text-align: center;
   line-height: 1.65;
@@ -25,6 +25,9 @@ img {
   display: block;
   user-select: none;
 }
+
+.clear{clear: both;}
+
 
 /* ========================= */
 /*         HEADER            */
@@ -287,6 +290,35 @@ img {
   background: rgba(210, 180, 106, 0.38);
   box-shadow: 0 0 10px rgba(255, 225, 160, 0.45);
 }
+
+/* pesonalização autores*/
+.author{
+  display: inline block;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.list-author{
+  display: block;
+}
+
+.list-author >.full-person{
+  display: block;
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  min-height: 200px;
+  padding: 25px;
+}
+
+.list-author >.full-person >img{
+  text-align: center;
+  display: inline;
+}
+
+.list-author >.full-person >.fp-info >.fp-links{flex-direction: column;margin: 5px;}
+.list-author >.full-person >.fp-info >.fp-links a{font-size: 20px;}
 
 /* ========================= */
 /*        footer         */
