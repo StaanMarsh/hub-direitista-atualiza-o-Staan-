@@ -3,7 +3,7 @@
 // ===============================================
 const hubData = {
   producao: [
-    { name: "Zer0", img: "./public/persons/zer0g0ld.png", links: { Substack: "https://zer0g0ld.substack.com/" } },
+    { name: "Zer0", img: "./public/persons/zer0g0ld.png", links: { Substack: "https://substack.com/@zer0g0ld" } },
     { name: "Staan Marsh", img: "./public/persons/Staan_Marsh.png", links: { Substack: "https://substack.com/@adson02" } },
     { name: "Noir", img: "./public/persons/Noir.png", links: { Substack: "https://substack.com/@noiret" } },
     { name: "Arnando Leal", img: "./public/persons/Armando_Leal.png", links: { Substack: "https://substack.com/@historiacontraataca" } },
