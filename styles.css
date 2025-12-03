@@ -366,6 +366,7 @@ img {
   .list-author >.full-person{
     display: flex;
     align-items: center;
+    width: 100%;
     gap: 20px;
     padding: 16px;
   }
